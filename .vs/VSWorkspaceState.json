@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\certificates",
+    "\\css",
+    "\\img"
   ],
-  "SelectedNode": "\\C:\\Users\\gkazakou\\source\\repos\\SirAlcan\\CV",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
