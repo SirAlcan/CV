@@ -2,1192 +2,165 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grigoris Kazakou | CV & Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+        }
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="This is a personal cv and portofolio.">
-  <meta name="author" content="Grigoris Kazakou">
-  <meta property="og:title" content="Personal CV & Portofolio.">
-  <meta property="og:image" style="border-radius: 50%;" content="./img/c.png">
-  <meta property="og:url" content="http://ec2-52-47-144-179.eu-west-3.compute.amazonaws.com/cv/">
+        .sidebar {
+            height: 100vh;
+            background-color: #0d1117;
+            color: #fff;
+            padding-top: 2rem;
+            position: fixed;
+            width: 250px;
+        }
 
+            .sidebar a {
+                color: #c9d1d9;
+                display: block;
+                padding: 10px 20px;
+                text-decoration: none;
+            }
 
-  <title>Grigoris Kazakou CV/PortFolio</title>
-  <link rel="icon" href="./img/Photo_Profile1.png" style="border-radius: 50%;">
+                .sidebar a:hover {
+                    background-color: #21262d;
+                    color: #fff;
+                }
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        .main-content {
+            margin-left: 260px;
+            padding: 2rem;
+        }
 
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+        h2 {
+            border-bottom: 2px solid #dee2e6;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
 
-    <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
-    <!-- Icon -->
-    <link rel="stylesheet" href="assets/fonts/line-icons.css">
-    <!-- Owl carousel -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.css">
+        .portfolio-card {
+            border: 1px solid #dee2e6;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            background: #fff;
+            margin-bottom: 1rem;
+        }
 
-    <!-- Animate -->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <!-- Main Style -->
-    <link rel="stylesheet" href="assets/css/main.css">
-    <!-- Responsive Style -->
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <script src="js/jquery-1.9.1.min.js"></script>
+        .social-icons {
+            text-align: center;
+            margin-top: 1rem;
+        }
 
+            .social-icons a {
+                color: #c9d1d9;
+                margin: 0 10px;
+                font-size: 1.5rem;
+            }
+
+                .social-icons a:hover {
+                    color: #fff;
+                }
+    </style>
 </head>
 
-<body id="page-top">
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav" style="background-color: #151719 !important;">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Grigoris Kazakou</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/Photo_Profil.jpg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <!---
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-      -->
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#tools">Tools</a>
-        </li>
-         <!---
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Certifications</a>
-        </li>
-      -->
-      </ul>
-    </div>
-  </nav>
-
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Grigoris
-          <span class="text-primary" style="color: #008080 !important;">Kazakou</span>
-        </h1>
-        <div class="subheading mb-5">Athens · Greece · (+30) 6946692139 ·
-          <a href="mailto:gregkazakou@gmail.com" style="color: #008080 !important;">gregkazakou@gmail.com</a>
+<body>
+    <div class="sidebar">
+        <div class="text-center mb-4">
+            <img src="img/Photo_Profile1.png" class="rounded-circle" width="100" alt="Profile">
+            <h5 class="mt-2">Grigoris Kazakou</h5>
         </div>
-        <p class="lead mb-5"><font size="3">Being a highly enthusiastic team player, I am aspiring to work with a team of motivated professionals in a challenging environment and to improve my troubleshooting skills. My passion for the Information and Technology field can lead me to work around limitations and challenges, overcome and persist in the face of obstacles, step in and get the work done and find the best solution to solve problems in web development, cloud, computers and networks.
-          As a person I am very patient and eager to learn in order to quickly become a productive member of the team. </font></p>
+        <a href="#about"><i class="fas fa-user"></i> About Me</a>
+        <a href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
+        <a href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
+        <a href="#certifications"><i class="fas fa-certificate"></i> Certifications</a>
+        <a href="#skills"><i class="fas fa-tools"></i> Skills</a>
+        <a href="#portfolio-dev"><i class="fas fa-code"></i> Portfolio - Dev</a>
+        <a href="#portfolio-pm"><i class="fas fa-project-diagram"></i> Portfolio - PM</a>
         <div class="social-icons">
-          <a href="https://www.linkedin.com/in/grigoris-kazakou-870330134/">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://github.com/SirAlcan?nav_source=navbar">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://www.instagram.com/g_for_greg/">
-            <i class="fab fa-instagram"></i>
-
-          </a>
+            <a href="https://github.com/SirAlcan" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/grigoriskazakou" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/g_for_greg/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Technical Project Manager</h3><br>
-            <div class="subheading mb-3"> <a href="">IMPACT INFORMATION SYSTEMS<a href="https://einvoicing.gr/"></a>"of the <a href="https://www.soft1.eu/">SOFTONE TECHNOLOGIES AE</a> Athens - Greece</div>
-            <p>Project Management - Project Implementation - Business Process Improvement. </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Dec 2023 - Present</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Software Consultant </h3>
-            <br>
-            <div class="subheading mb-3"><a href="https://epsilonnet.gr/en/">EPSILON NET</a> Athens - Greece</div>
-            <p> Implement and test solutions in a SAAS environment for the <a href="https://epsilonnet.gr/en/eidos-logismikou/electronic-invoicing/">Certified Provider Services</a> prior to customer integration.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Oct 2022 - Nov 2023</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Information Technology Support Specialist</h3><br>
-            <div class="subheading mb-3"><a href="https://sposaepe.gr/">SPOSA LTD</a> Athens - Greece</div>
-            <p>Continuous monitoring of company’s systems, execution of regular upgrades, support and maintenance of equipment, improvement of existing systems, documentation of manuals and troubleshooting procedures, management of corporate accounts /email /ERP /CRM </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Dec 2017 - Sep 2021</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Military Officer (IT)</h3><br>
-            <div class="subheading mb-3"><a href="https://401gsn.army.gr/">401 General Military Hospital </a>of Athens - Greece</div>
-            <p>Mandatory military service, in a clerical services position and in the IT infrastructure.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Sep 2021 - Sep 2022</span>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-
-       <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Sivitanidios Institute of Advanced Professional Training</h3><br>
-            <div class="subheading mb-3"><a href="https://www-sivitanidios-edu-gr.translate.goog/p/blog-page_39.html?_x_tr_sl=el&_x_tr_tl=en&_x_tr_hl=el&_x_tr_pto=wapp">Computer Science Diploma</a></div>
-            <div>Diploma of the Information Technology Applications Technician (Multimedia, Web Designer, Developer, Video Games) SC:21-01-04-1 Law 4186/2013</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Oct 2015 - Dec 2018</span>
-          </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Sivitanidios Technical high school arts and technology </h3><br>
-            <div class="subheading mb-3">Certificate in Computer and Network Technology</div>
-            <div>Certificate with a specialization in Computer Hardware and Network Technician</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Sep 2012 - Jul 2014</span>
-          </div>
-        </div> 
-
-      </div>
-    </section>
-
-    <hr class="m-0">
-    <style>
-      figure {
-          float: right;
-          text-align: center;
-          font-style: italic;
-          font-size: 10pt;
-          text-indent: 0;
-          margin: 0.5em;
-          padding: 0.5em;
-        }
-        .container-full {
-          margin: 0 auto;
-          width: 100%;
-        } 
-    </style>
-   <!-- <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-     <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
-
-     <hr class="m-0">
-      <div class="container" style="display: flex; justify-content: space-around">
-        <div  class="col">
-              <br>
-              <div class="subheading mb-3">Programming</div>
-              <ul class="list-inline dev-icons">
-                <div class="row">
-                  <div class="col-sm">
-                      <div class="text-center">
-                        <li class="list-inline-item">
-                          <figure>
-                            <img style="border-radius: 50%; height:70px; width:70px;" src="./img/PM/Business Plan.svg" alt="OOP">
-                            <figcaption>Object Oriented Programming</figcaption>
-                          </figure>
-                        </li>
-                      </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="text-center">
-                          <li class="list-inline-item">
-                            <figure>
-                              <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/prog_lan/scripting.png" alt="Scripting.">
-                              <figcaption>Scrpting.</figcaption>
-                            </figure>
-                          </li>
-                        </div>
-                      </div>
-                      <div class="col-sm">
-                          <div class="text-center">
-                            <li class="list-inline-item">
-                              <figure>
-                                <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/prog_lan/functional.png" alt="Functional Programming.">
-                                <figcaption>Functional Programming.</figcaption>
-                              </figure>
-                            </li>
-                          </div>
-                        </div>
-                      <div class="col-sm">
-                          <div class="text-center">
-                            <li class="list-inline-item">
-                              <figure>
-                                <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/prog_lan/threads.png" alt="Threads.">
-                                <figcaption>Thread Programming.</figcaption>
-                              </figure>
-                            </li>
-                          </div>
-                        </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm">
-                      <div class="text-center">
-                        <li class="list-inline-item">
-                          <figure>
-                            <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/prog_lan/java.png" alt="Java">
-                            <figcaption>Java</figcaption>
-                          </figure>
-                        </li>
-                      </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="text-center">
-                          <li class="list-inline-item">
-                            <figure>
-                              <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/prog_lan/c-.png" alt="C">
-                              <figcaption>C</figcaption>
-                            </figure>
-                          </li>
-                        </div>
-                      </div>
-                      <div class="col-sm">
-                          <div class="text-center">
-                            <li class="list-inline-item">
-                              <figure>
-                                <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/prog_lan/c++.png" alt="C++">
-                                <figcaption>C++</figcaption>
-                              </figure>
-                            </li>
-                          </div>
-                        </div>
-                        <div class="col-sm">
-                            <div class="text-center">
-                              <li class="list-inline-item">
-                                <figure>
-                                  <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/prog_lan/php.png" alt="Php">
-                                  <figcaption>PhP</figcaption>
-                                </figure>
-                              </li>
-                            </div>
-                          </div>
-                        </div> 
-                    <div class="row">
-                        <div class="col-sm">
-                          <div class="text-center">
-                            <li class="list-inline-item">
-                              <figure>
-                                <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/prog_lan/python.png" alt="python">
-                                <figcaption>python</figcaption>
-                              </figure>
-                            </li>
-                          </div>
-                        </div>
-                        <div class="col-sm">
-                          <div class="text-center">
-                            <li class="list-inline-item">
-                              <figure>
-                                <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/prog_lan/js.png" alt="JavaScript">
-                                <figcaption>JavaScript</figcaption>
-                              </figure>
-                            </li>
-                          </div>
-                        </div>
-                        <div class="col-sm">
-                          <div class="text-center">
-                            <li class="list-inline-item">
-                              <figure>
-                                <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/prog_lan/node.png" alt="nodeJs">
-                                <figcaption>Node JS</figcaption>
-                              </figure>
-                            </li>
-                          </div>
-                        </div>
-                        <div class="col-sm">
-                          <div class="text-center">
-                            <li class="list-inline-item">
-                              <figure>
-                                <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/prog_lan/html.png" alt="HTML">
-                                <figcaption>HTML</figcaption>
-                              </figure>
-                            </li>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                          <div class="col-sm">
-                            <div class="text-center">
-                              <li class="list-inline-item">
-                                <figure>
-                                  <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/prog_lan/json.png" alt="JSON">
-                                  <figcaption>Json</figcaption>
-                                </figure>
-                              </li>
-                            </div>
-                          </div>
-                          <div class="col-sm">
-                            <div class="text-center">
-                              <li class="list-inline-item">
-                                <figure>
-                                  <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/prog_lan/xml.png" alt="XML">
-                                  <figcaption>XML</figcaption>
-                                </figure>
-                              </li>
-                            </div>
-                          </div>
-                        </div>
-                      </ul>
-                    </div>
-                </div> 
-      <hr class="m-0">
-
-      <div class="container" style="display: flex; justify-content: space-around">
-      <div  class="col">
-          <br>
-        <div class="subheading mb-3">DataBases, Connectors & Query Languages</div>
-        <ul class="list-inline dev-icons">
-          <div class="row">
-            <div class="col-sm">
-                <div class="text-center">
-                  <li class="list-inline-item">
-                    <figure>
-                      <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/db/maria_db.png" alt="Maria DB">
-                      <figcaption>Maria DB</figcaption>
-                    </figure>
-                  </li>
-                </div>
-              </div>
-              <div class="col-sm">
-                <div class="text-center">
-                  <li class="list-inline-item">
-                    <figure>
-                      <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/db/my_sql.png" alt="MySQL">
-                      <figcaption>MySQL DB</figcaption>
-                    </figure>
-                  </li>
-                </div>
-              </div>
-              <div class="col-sm">
-                <div class="text-center">
-                  <li class="list-inline-item">
-                    <figure>
-                      <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/db/sql.png" alt="SQL">
-                      <figcaption>SQL (QL)</figcaption>
-                    </figure>
-                  </li>
-                </div>
-              </div>
-              <div class="col-sm">
-                <div class="text-center">
-                  <li class="list-inline-item">
-                    <figure>
-                      <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/db/jdbc.png" alt="jdbc">
-                      <figcaption>JDBC</figcaption>
-                    </figure>
-                  </li>
-                </div>
-              </div>
-            </div>
-          <li class="list-inline-item">
-            <figure>
-              <img style="border-radius: 50%; height:70px; width:70px;" src="./img/php_sql.png" alt="php_sql">
-              <figcaption>PhP & SQL</figcaption>
-            </figure>
-          </li> 
-          <div class="row">
-            <div class="col-sm">
-              <div class="text-center">
-                <li class="list-inline-item">
-                  <figure>
-                    <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/db/cassandra.png" alt="Cassandra">
-                    <figcaption>Cassandra DB</figcaption>
-                  </figure>
-                </li>
-              </div>
-            </div>
-            <div class="col-sm">
-              <div class="text-center">
-                <li class="list-inline-item">
-                  <figure>
-                    <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/db/cql.png" alt="CQL">
-                    <figcaption>CQL</figcaption>
-                  </figure>
-                </li>
-              </div>
-            </div>
-            <div class="col-sm">
-              <div class="text-center">
-                <li class="list-inline-item">
-                  <figure>
-                    <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/db/datastax.png" alt="Datastax">
-                    <figcaption>Datastax Drivers</figcaption>
-                  </figure>
-                </li>
-              </div>
-            </div>
-          </div>
-        </ul>
-      </div>
     </div>
-       <hr class="m-0"> 
-        Frameworks and Open Standars.
-        <div class="container" style="display: flex; justify-content: space-around">
-          <div  class="col">
 
-          </div>
-        </div> -->
-      <hr class="m-0">
-        <!--Frameworks and Open Standars.
-        <div class="container" style="display: flex; justify-content: space-around">
-            <div  class="col">
-            <br>
-              <div class="subheading mb-3">Industry knowledge &amp; Interests</div>
-                <ul class="list-inline dev-icons">
-                  <div class="row">
-                      <div class="col-sm">
-                        <div class="text-center">
-                          <li class="list-inline-item">
-                            <figure>
-                              <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/industry/IoT.png" alt="IoT.">
-                              <figcaption>Internet of Things.</figcaption>
-                            </figure>
-                          </li>
-                        </div>
-                      </div>
-                    <div class="col-sm">
-                      <div class="text-center">
-                        <li class="list-inline-item">
-                          <figure>
-                            <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/industry/cv.png" alt="Computer Vision.">
-                            <figcaption>Computer Vision.</figcaption>
-                          </figure>
-                        </li>
-                      </div>
-                    </div>
-                    <div class="col-sm">
-                      <div class="text-center">
-                        <li class="list-inline-item">
-                          <figure>
-                            <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/industry/cloud.png" alt="Cloud.">
-                            <figcaption>Cloud Computing.</figcaption>
-                          </figure>
-                        </li>
-                      </div>
-                    </div>
-                  <div class="col-sm">
-                    <div class="text-center">
-                      <li class="list-inline-item">
-                        <figure>
-                          <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/industry/ws.png" alt="WS.">
-                          <figcaption>Web Services.</figcaption>
-                        </figure>
-                      </li>
-                    </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm">
-                  <div class="text-center">
-                    <li class="list-inline-item">
-                      <figure>
-                        <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/industry/devops.png" alt="Cloud.">
-                        <figcaption>DevOps</figcaption>
-                      </figure>
-                    </li>
-                  </div>
-                </div>
-              <div class="col-sm">
-                <div class="text-center">
-                  <li class="list-inline-item">
-                    <figure>
-                      <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/industry/fullstack.png" alt="Cloud.">
-                      <figcaption>FullStack.</figcaption>
-                    </figure>
-                  </li>
-                </div>
-              </div>
-            <div class="col-sm">
-                <div class="text-center">
-                  <li class="list-inline-item">
-                    <figure>
-                      <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/industry/distr.png" alt="Cloud.">
-                      <figcaption>Distributed Systems.</figcaption>
-                    </figure>
-                  </li>
-                </div>
-              </div>
-              <div class="col-sm">
-                  <div class="text-center">
-                    <li class="list-inline-item">
-                      <figure>
-                        <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/industry/networking.png" alt="Networking.">
-                        <figcaption>Networking</figcaption>
-                      </figure>
-                    </li>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-      <hr class="m-0">
-        Artificial Inteligence.
-        <div class="container" style="display: flex; justify-content: space-around">
-          <div  class="col">
-            <br>
-            <div class="subheading mb-3">Artificial Inteligence & Machine Learning</div>
-            <ul class="list-inline dev-icons">
-              <div class="row">
-                <div class="col-sm">
-                  <div class="text-center">
-                    <li class="list-inline-item">
-                      <figure>
-                        <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/AI/Ann.png" alt="Artificial Newral Networks">
-                        <figcaption>Artificial Newral Networks</figcaption>
-                      </figure>
-                    </li>
-                  </div>
-                </div>
-              <div class="col-sm">
-                <div class="text-center">
-                  <li class="list-inline-item">
-                    <figure>
-                      <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/AI/deep_learning.png" alt="Deep Learning.">
-                      <figcaption>Deep Learning</figcaption>
-                    </figure>
-                  </li>
-                </div>
-              </div>
-              <div class="col-sm">
-                <div class="text-center">
-                  <li class="list-inline-item">
-                    <figure>
-                      <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/AI/Cnn.png" alt="CNN">
-                      <figcaption>Convolutional Neural Networks</figcaption>
-                    </figure>
-                  </li>
-                </div>
-              </div>
-              <div class="col-sm">
-                <div class="text-center">
-                <li class="list-inline-item">
-                  <figure>
-                    <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/AI/rnn.png" alt="RNN">
-                    <figcaption>Recurrent Neural Networks</figcaption>
-                  </figure>
-                </li>
-              </div>
-            </div>
-          </div> 
-            <div class="row">
-              <div class="col-sm">
-                  <div class="text-center">
-                    <li class="list-inline-item">
-                      <figure>
-                        <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/AI/ai_search.png" alt="Search Algorithms.">
-                        <figcaption>Artificial Intelligence Search Algorithms.</figcaption>
-                      </figure>
-                    </li>
-                  </div>
-                </div>
-              </div>
+    <div class="main-content">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Enthusiastic and results-driven IT professional with a proven track record in delivering ERP, CRM, SaaS, EFT/POS, and WMS solutions. I excel in resolving complex system challenges, aligning technology with business goals, and delivering high-quality outcomes through Agile methodologies. My career spans hands-on software development, IT operations, and cross-functional project leadership within both small startups and large enterprises.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Project Manager</strong> – Softone / Impact (Nov 2023 – Present)<br>Lead end-to-end delivery of technical projects including E-Invoicing and MyData integrations. Provide L3 technical support, stakeholder communication, and team performance management.</li>
+                <li><strong>Digital Software Consultant</strong> – Epsilon Net (Oct 2022 – Nov 2023)<br>Designed and implemented client-specific software in SaaS environments. Delivered training, handled data transformation (XML/JSON), and improved integrations using Postman APIs and SQL queries.</li>
+                <li><strong>IT Manager Specialist</strong> – Sposa Ltd (Dec 2017 – Sep 2021)<br>Managed IT infrastructure, ERP/CRM education, and support services. Oversaw network configurations, upgrades, and system security protocols.</li>
+                <li><strong>IT Specialist (Military Service)</strong> – 401 GSMH (Sep 2021 – Sep 2022)<br>Handled internal network support and technical issue resolution for communication systems during national service.</li>
             </ul>
-          </div>
-      </div>
+        </section>
 
-
-      <hr class="m-0">
-      <div class="container" style="display: flex; justify-content: space-around">
-        <div  class="col">
-            <br>
-          <div class="subheading mb-3">Frameworks &amp; Standars.</div>
-          <ul class="list-inline dev-icons">
-            <div class="row">
-              <div class="col-sm">
-                  <div class="text-center">
-                    <li class="list-inline-item">
-                      <figure>
-                        <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/frameworks/rest.png" alt="RestFull Webservices.">
-                        <figcaption>REpresentational State Transfer (REST).</figcaption>
-                      </figure>
-                    </li>
-                  </div>
-                </div>
-                <div class="col-sm">
-                    <div class="text-center">
-                      <li class="list-inline-item">
-                        <figure>
-                          <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/frameworks/soap.png" alt="SOAP Webservices.">
-                          <figcaption>Simple Object Access Protocol.</figcaption>
-                        </figure>
-                      </li>
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                      <div class="text-center">
-                        <li class="list-inline-item">
-                          <figure>
-                            <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/frameworks/sockets.png" alt="Socket Programming.">
-                            <figcaption>Socket Programming.</figcaption>
-                          </figure>
-                        </li>
-                      </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="text-center">
-                          <li class="list-inline-item">
-                            <figure>
-                              <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/frameworks/rmi.png" alt="RMI">
-                              <figcaption>Remote Method Invocation (RMI).</figcaption>
-                            </figure>
-                          </li>
-                        </div>
-                      </div>
-                </div>
-            <div class="row">
-              <div class="col-sm">
-                  <div class="text-center">
-                    <li class="list-inline-item">
-                      <figure>
-                        <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/frameworks/java-rx.png" alt="Java-rx">
-                        <figcaption>Java-RX (RestEasy & Jersey).</figcaption>
-                      </figure>
-                    </li>
-                  </div>
-                </div>
-                <div class="col-sm">
-                    <div class="text-center">
-                      <li class="list-inline-item">
-                        <figure>
-                          <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/frameworks/spring.png" alt="Spring">
-                          <figcaption>Spring Framework</figcaption>
-                        </figure>
-                      </li>
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                      <div class="text-center">
-                        <li class="list-inline-item">
-                          <figure>
-                            <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/frameworks/junit.png" alt="JUnit">
-                            <figcaption>JUnit Testing</figcaption>
-                          </figure>
-                        </li>
-                      </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="text-center">
-                          <li class="list-inline-item">
-                            <figure>
-                              <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/frameworks/jpa.png" alt="JPA">
-                              <figcaption>Java Persistence API.</figcaption>
-                            </figure>
-                          </li>
-                        </div>
-                      </div>
-                    </div>
-                  </ul>
-            </div>
-          </div>
-
-        <hr class="m-0">
-        <br>
-        <div class="container" style="display: flex; justify-content: space-around">
-
-          <div  class="col">
-          <div class="row">
-            <div class="col-md-4">
-               Column 1 
-              <div class="subheading mb-3">Working attitude.</div>
-              <ul class="fa-ul mb-0">
-                <li>
-                  <i class="fa-li fa fa-check"></i>
-                  Creative Problem Solving
-                </li>
-                <li>
-                  <i class="fa-li fa fa-check"></i>
-                  Reaserch & Development.</li>
-                <li>
-                  <i class="fa-li fa fa-check"></i>
-                  Get Things done </li>
-                <li>
-                  <i class="fa-li fa fa-check"></i>
-                  Dreamer &amp; Doer (Disney Model)</li>
-                <li>
-                  <i class="fa-li fa fa-check"></i>
-                  Teamwork</li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              Column 2 
-              <div class="subheading mb-3">Working Mentality</div>
-              <ul class="fa-ul mb-0">
-                <li>
-                  <i class="fa-li fa fa-check"></i>
-                  Brootforce &amp; Theoritical analysis</li>
-                <li>
-                  <i class="fa-li fa fa-check"></i>
-                  Cross Browser Testing &amp; Debugging</li>
-                <li>
-                  <i class="fa-li fa fa-check"></i>
-                  Cross Functional Teams</li>
-                <li>
-                  <i class="fa-li fa fa-check"></i>
-                  Agile Development &amp; Scrum</li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              Column 3 
-              <div class="subheading mb-3">Values</div>
-              <ul class="fa-ul mb-0">
-                <li>
-                  <i class="fa-li fa fa-check"></i>
-                  Open-minded</li>
-                <li>
-                  <i class="fa-li fa fa-check"></i>
-                  Curiosity, Self Juddment &amp; Self Improvement
-                  </li>
-                <li>
-                  <i class="fa-li fa fa-check"></i>
-                  Humor
-                  </li>
-                <li>
-                  <i class="fa-li fa fa-check"></i>
-                  Influence</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </section> -->
-<!-- Αρχή πλοήγησης -->
-    <hr class="m-0">
-    <!-- Αρχή πλοήγησης -->
-   <!--<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="tools">
-      <div class="w-100">
-        <h2 class="mb-5">Tools & Technologies</h2>
-
-      <div class="container" style="display: flex; justify-content: space-around">
-        <div  class="col">
-          <div class="subheading mb-3">Server OS & Administration</div>
-            <ul class="list-inline dev-icons">
-              <div class="row">
-                <div class="col-sm">
-                    <div class="text-center">
-                      <li class="list-inline-item">
-                        <figure>
-                          <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/os/debian.png" alt="Debian">
-                          <figcaption>Debian 9.</figcaption>
-                        </figure>
-                      </li>
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                      <div class="text-center">
-                        <li class="list-inline-item">
-                          <figure>
-                            <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/os/ubuntu.png" alt="Ubuntu">
-                            <figcaption>Ubuntu 16/18.</figcaption>
-                          </figure>
-                        </li>
-                      </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="text-center">
-                          <li class="list-inline-item">
-                            <figure>
-                              <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/os/rpy.png" alt="Raspbian">
-                              <figcaption>Raspbian</figcaption>
-                            </figure>
-                          </li>
-                        </div>
-                      </div>
-                      <div class="col-sm">
-                          <div class="text-center">
-                            <li class="list-inline-item">
-                              <figure>
-                                <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/os/rpy.png" alt="DDWRT">
-                                <figcaption>DDWRT</figcaption>
-                              </figure>
-                            </li>
-                          </div>
-                        </div>
-                  </div>
-                </ul>
-              </div>
-            </div>
-
-
-      <div class="row" style="display: flex; justify-content: space-around">
-          <div  class="col">
-          <div class="subheading mb-3">Application & HTTP Servers</div>
-            <ul class="list-inline dev-icons">
-              <div class="row">
-                <div class="col-sm">
-                    <div class="text-center">
-                    <li class="list-inline-item">
-                      <figure>
-                        <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/http_servers/apache2.png" alt="Apache HTTP Server.">
-                        <figcaption>Apache HTTP Server.</figcaption>
-                      </figure>
-                    </li>
-                  </div>
-                </div>
-                <div class="col-sm">
-                    <div class="text-center">
-                    <li class="list-inline-item">
-                      <figure>
-                        <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/http_servers/Tomcat_tomee.png" alt="Apache HTTP Server.">
-                        <figcaption>Tomcat/TomEE HTTP/Application Server.</figcaption>
-                      </figure>
-                    </li>
-                  </div>
-                </div>
-                <div class="col-sm">
-                    <div class="text-center">
-                    <li class="list-inline-item">
-                      <figure>
-                        <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/http_servers/glassfish.png" alt="Glashfish application server.">
-                        <figcaption>Glassfish Application Server.</figcaption>
-                      </figure>
-                    </li>
-                  </div>
-                </div>
-             </div>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Bachelor’s Degree in Information Technology</strong> – Sivitanidios Institute (2015 – 2018)<br>Focus on multimedia, software development, and business applications. Proficiency in C#, C++, HTML, Java, and SQL.</li>
+                <li><strong>IT Certificate – Network Systems</strong> – Sivitanidios Technical High School (2012 – 2014)<br>Training in hardware maintenance, system installation, and network administration.</li>
             </ul>
-          </div>
-        </div>
+        </section>
 
-  <hr class="m-0">
-  <div class="subheading mb-3">Cloud &amp; Tools </div>
-  <div class="row" style="display: flex; justify-content: space-around">
-  <ul class="list-inline dev-icons">
-    <div class="row">
-      <div class="col-sm">
-          <div class="text-center">
-            <li class="list-inline-item">
-              <figure>
-                <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/cloud_tools/aws.png" alt="AWS">
-                <figcaption>Amazon Web Services.</figcaption>
-              </figure>
-            </li>
-          </div>
-        </div>
-        <div class="col-sm">
-            <div class="text-center">
-              <li class="list-inline-item">
-                <figure>
-                  <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/cloud_tools/Azure.png" alt="AWS">
-                  <figcaption>Azure Directory</figcaption>
-                </figure>
-              </li>
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Scrum Fundamentals Certified – SCRUMstudy</li>
+                <li>Azure Fundamentals (AZ-900) – Microsoft</li>
+                <li>Git & GitHub – Coursera</li>
+                <li>Linux Essentials – Cisco Networking Academy</li>
+                <li>AWS Shared Responsibility Model</li>
+                <li>Cyber Security & Social Networks – I.IEK KORELKO</li>
+                <li>Deep/Dark Web – I.IEK KORELKO</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Hard Skills:</strong> ERP/CRM, SaaS, SQL, Postman API, Microsoft Azure, XML/JSON, Microsoft Dynamics NAV, Cloud Computing, AWS</li>
+                <li><strong>Soft Skills:</strong> Agile, Team Leadership, Communication, Customer Service, Troubleshooting, Time Management</li>
+                <li><strong>Languages:</strong> Greek (Native), English (Fluent), Russian (Intermediate), Romanian (Intermediate)</li>
+                <li><strong>Additional:</strong> Driving License (A, B), Completed Military Service</li>
+            </ul>
+        </section>
+
+        <section id="portfolio-dev">
+            <h2>Portfolio – Software Engineering</h2>
+            <div class="portfolio-card">
+                <h5>Restaurant Real-Time App</h5>
+                <p>Full-stack restaurant ordering system built with Blazor (.NET 9), CosmosDB, SignalR, and PWA features. Supports real-time table orders, offline mode with IndexedDB, role-based access, and Docker deployment.</p>
+                <a href="https://github.com/SirAlcan/restaurant-realtime-app" target="_blank">View on GitHub</a>
             </div>
-          </div>
-          <div class="col-sm">
-              <div class="text-center">
-                <li class="list-inline-item">
-                  <figure>
-                    <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/cloud_tools/docker.png" alt="AWS">
-                    <figcaption>Docker</figcaption>
-                  </figure>
-                </li>
-              </div>
+        </section>
+
+        <section id="portfolio-pm">
+            <h2>Portfolio – Project Management</h2>
+            <div class="portfolio-card">
+                <h5>MyData & E-Invoicing Rollout</h5>
+                <p>Oversaw the rollout of electronic invoicing compliance for enterprise clients via MyData APIs. Coordinated teams and ensured timely delivery with full documentation and support.</p>
             </div>
-            <div class="col-sm">
-                <div class="text-center">
-                  <li class="list-inline-item">
-                    <figure>
-                      <a href="https://gitlab.com/AbstractVersion?nav_source=navbar"><img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/cloud_tools/git.png" alt="AWS"></a>
-                      <figcaption><a href="https://gitlab.com/AbstractVersion?nav_source=navbar">Gitlab/Github </a></figcaption>
-                    </figure>
-                  </li>
-                </div>
-              </div>
-      </div>
-    </ul>
-  </div>
-      <div class="subheading mb-3">MicroControllers & Low Power Computers </div>
-      <div class="container" style="display: flex; justify-content: space-around">
-      <ul class="list-inline dev-icons">
-        <div class="row">
-          <div class="col-sm">
-            <div class="text-center">
-              <li class="list-inline-item">
-                <figure>
-                  <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/micro/arduino.png" alt="Arduino">
-                  <figcaption>Arduino</figcaption>
-                </figure>
-              </li>
+            <div class="portfolio-card">
+                <h5>ERP/CRM SaaS Onboarding Program</h5>
+                <p>Led onboarding for 20+ customers integrating SaaS ERP/CRM solutions including data migration, custom reporting, and ongoing client support.</p>
             </div>
-          </div>
-          <div class="col-sm">
-            <div class="text-center">
-              <li class="list-inline-item">
-                <figure>
-                  <img style="border-radius: 50%; height:70px; width:70px;" src="./img/skills/micro/rpy.png" alt="Arduino">
-                  <figcaption>Raspberry py.</figcaption>
-                </figure>
-              </li>
-            </div>
-          </div>
-        </div>
-      </ul>
+        </section>
     </div>
-  </div>
-    </section>
-     <!-- Bootstrap core JavaScript -->
-    <!-- <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="portfolio">
-     
-      <div class="container">
-        <div class="section-header text-center">
-          <h2 class="section-title wow fadeInDown" data-wow-delay="0.1s">PortFolio</h2>
-          <div class="shape wow fadeInDown" data-wow-delay="0.1s"></div>
-        </div>
-        <div class="row">
-      
-          <a href="https://gitlab.com/abs_portfolio/opc-ua-raspberry.pi">
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
-              <img style="width:100%; height:100%;"src="./img/projects/viz.png" alt="Opc-Ua project">
 
-              <div class="services-content">
-                <h3><a href="https://gitlab.com/abs_portfolio/opc-ua-raspberry.pi">Temprature & Humidity monitoring.</a></h3>
-                <p>A Dht sensor arrached on a Raspberry-pi. An opc-server on node js and a node.js/html vizualization client.</p>
-              </div>
-            </div>
-          </div>
-        </a>
-     
-          <a href="https://gitlab.com/abs_portfolio/iot-smart-home">
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item wow fadeInRight" data-wow-delay="0.6s">
-              <img style="width:300px; height:250px;"src="./img/maria.png" alt="Java">
-
-              <div class="services-content">
-                <h3><a href="#">IoT Smart Home</a></h3>
-                <p>A smart home system based on IoT technology, which provides services such as : enviroment monitoring, data visualization, device controll, automation and feature extraction.  </p>
-              </div>
-            </div>
-          </div>
-        </a>
-           Services item 
-          <a href="http://google.com">
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item wow fadeInRight" data-wow-delay="0.9s">
-              <img style="width:300px; height:250px;"src="./img/maria.png" alt="Java">
-
-              <div class="services-content">
-                <h3><a href="#">Easy To Customize</a></h3>
-                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
-              </div>
-            </div>
-          </div>
-        </a> 
-           Services item 
-           <a href="http://google.com">
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item wow fadeInRight" data-wow-delay="1.2s">
-              <img style="width:300px; height:250px;"src="./img/maria.png" alt="Java">
-
-              <div class="services-content">
-                <h3><a href="#">UI/UX Design</a></h3>
-                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
-              </div>
-            </div>
-          </div>
-        </a> 
-     
-          <a href="https://gitlab.com/abs_portfolio/rmi-airplane-booker">
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item wow fadeInRight" data-wow-delay="1.5s">
-              <img style="width:100%; height:100%;"src="./img/projects/handuken.png" alt="Handuken">
-              <div class="services-content">
-                <h3><a href="https://gitlab.com/abs_portfolio/rmi-airplane-booker">Ticket-Booking-System</a></h3>
-                <p>This is a demonstration of Remote Method Invocation protocol in an Airplane Ticket Booking System as its use case. </p>
-              </div>
-            </div>
-          </div>
-        </a>
-   
-          <a href="https://gitlab.com/abs_portfolio/k-means-clustering">
-          <div class="col-md-6 col-lg-4 col-xs-12">
-            <div class="services-item wow fadeInRight" data-wow-delay="1.8s">
-              <img style="width:100%; height:100%;"src="./img/projects/kmns.png" alt="K-Means">
-              <div class="services-content">
-                <h3><a href="https://gitlab.com/abs_portfolio/k-means-clustering">K-Means Country Clustering</a></h3>
-                <p>A jsp based webpage, using wikipidia api to search for countries & register on a MySQL Database. Countries are clasified with the K-Means algorithm based on the Wiki info.</p>
-              </div>
-            </div>
-          </a>
-
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-
-    <hr class="m-0">
-    <!-- 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-     
-      <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        <p class="mb-0">Computer Science is not only my field but my passion as well. So, on my spare time I love to create small projects or learn about different fields and their systems. Fields such as security & ethical hacking, Artificial Intelligence, IoT & microcontroller and so on.</p>
-        <br>
-        <p class="mb-0">Apart from technology I love traveling and learning new things about different cultures. A food lover and passionate beer and wine drinker. I love to experience new things and see the world from different point of views.</p>
-        <br>
-        <p class="mb-0">Also, I do love sports and exercising. I love a good game of basket or football. I love extreme sports and generally explore the nature. Lastly I am a huge fan of camping.</p>
-      </div>
-    
-    </section>
-    -->
-    <hr class="m-0">
-  <!-- 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h4 class="mb-5">Awards &amp; Recommendations</h4>
-        <div class="row">
-      
-        <div class="col-md-6 col-lg-4 col-xs-12" data-toggle="modal" data-target="#modalYT">
-          <div class="services-item wow fadeInRight" data-wow-delay="0.1s">
-            <img style="width:100%; height:150%;"src="./img/akkademy.png" alt="Akkademy Program Inovation Project Winners">
-
-            <div class="services-content">
-              <h3><a href="#">Akkademy Program</a></h3>
-              <p>Inovation project winers at Akkademy program provided by Akka Technologies.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4 col-xs-12" data-toggle="modal" data-target="#modalYT2">
-          <div class="services-item wow fadeInRight" data-wow-delay="0.1s">
-            <img style="width:100%; height:50%;"src="./img/star.png" alt="Certificate Star Chanel">
-
-            <div class="services-content">
-              <h3><a href="#">Star Chanel.</a></h3>
-              <p>Recommendation letter from the IT manager of Star chanel GR.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr class="m-0">
-      <h4 class="mb-5">Udemy Certifications</h4>
-      <div class="row" id="udemy_container"></div>
-  
-        <div class="modal fade" id="modalYT" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg" role="document">
-       
-            <div class="modal-content">
-       
-              <div class="modal-body mb-0 p-0">
-                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6537252311469830144" height="715" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-                  
-                </div>
-              </div>
-      
-              <div class="modal-footer justify-content-center flex-column flex-md-row">
-                <input type="image"data-dismiss="modal"  src="./img/x.png"  width="30" height="30">
-              </div>
-            </div>
-     
-          </div>
-        </div>
-        <div class="modal fade" id="modalYT2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg" role="document">
-      
-            <div class="modal-content">
-        
-              <div class="modal-body mb-0 p-0">
-                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                  <object data="./certificates/star.pdf" type="application/pdf" width="100%" height="800px">
-                    <p>It appears you don't have a PDF plugin for this browser.
-                     No worries... you can <a href="resume.pdf">click here to
-                    download the PDF file.</a></p>
-                  </object>
-                </div>
-              </div>
-    
-              <div class="modal-footer justify-content-center flex-column flex-md-row">
-                <input type="image"data-dismiss="modal"  src="./img/x.png"  width="30" height="30">
-              </div>
-            </div>
-         
-          </div>
-        </div>
-        Modal: modalYT
-        <div id="multy_modal_container"></div>
-      </div>
-    </section>
-  </div> 
--->
-
-  <script src="js/serv.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
-
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="assets/js/jquery-min.js"></script>
-  <script src="assets/js/popper.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/owl.carousel.min.js"></script>
-  <script src="assets/js/wow.js"></script>
-  <script src="assets/js/jquery.nav.js"></script>
-  <script src="assets/js/scrolling-nav.js"></script>
-  <script src="assets/js/jquery.easing.min.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/form-validator.min.js"></script>
-  <script src="assets/js/contact-form-script.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
